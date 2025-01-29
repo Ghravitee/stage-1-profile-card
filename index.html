@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="/Daniel's-image.png"
+        alt="Profile Picture"
+        class="profile-img"
+        data-testid="profilePicture"
+      />
+
+      <h2 data-testid="fullName" class="fullName">Ayodele Temitope Daniel</h2>
+      <p class="job-title" data-testid="jobTitle">Frontend Developer</p>
+
+      <p class="bio" data-testid="shortBio">
+        A passionate developer who thrives on experimenting with different
+        technologies. I currently work with
+        <span class="highlight">HTML</span>, <span class="highlight">CSS</span>,
+        <span class="highlight">JavaScript</span>,
+        <span class="highlight">React</span>, and
+        <span class="highlight">Tailwind CSS</span> to bring ideas to life.
+        Enthusiastic about
+        <span class="highlight">open-source projects</span> and making a real
+        impact in the tech world. On a journey of
+        <span class="highlight">continuous learning</span>, battling
+        <span class="highlight">impostor syndrome</span>—but there will be only
+        one winner, and that’s me.
+        <span class="highlight">Code, create, conquer</span>—because
+        <span class="highlight">innovation never sleeps</span>!
+      </p>
+
+      <p class="location" data-testid="currentLocation">Lagos, Nigeria</p>
+      <p class="email" data-testid="emailAddress">dyenamics228@gmail.com</p>
+
+      <div class="social-links" data-testid="socialLinks">
+        <a
+          href="https://linkedin.com/temitope-ayodele-68a20324a"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/Ghravitee" target="_blank">GitHub</a>
+        <a
+          href="https://x.com/Tope_or_Dan?t=UgTstEDlqvfk0lFhv0jLjQ&s=08"
+          target="_blank"
+          >Twitter</a
+        >
+      </div>
+
+      <p class="utc-time" data-testid="currentTimeUTC"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url("/geometric-background-yellow-black.jpg") no-repeat center
+    center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  background: rgba(22, 23, 77, 0.9); /* Semi-transparent for contrast */
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 375px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border: 4px solid #f7df1e;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.fullName {
+  color: #f7df1e;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.job-title {
+  font-weight: bold;
+  color: #a79ae0;
+  font-size: 1rem;
+}
+
+.highlight {
+  color: #f7df1e; /* Yellow highlight color */
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.3); /* Subtle background for emphasis */
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
+.bio {
+  font-size: 0.9rem;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.location,
+.email {
+  font-size: 0.9rem;
+  color: #ffffff;
+  margin: 5px 0;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  color: #f7df1e;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #0073e6;
+}
+
+.utc-time {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+@media (max-width: 400px) {
+  .profile-card {
+    width: 90%;
+  }
+}
